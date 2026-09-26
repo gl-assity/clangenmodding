@@ -651,7 +651,7 @@
     "STORY": ["dream", "lyre", "mew", "singer", "song", "starling", "story", "stretch", "tale", "throat", "tongue", "weaver", "web"],
     "LORE": ["mark", "path", "song", "tale", "throat", "tongue", "trail", "weaver"],
     "SPEAKER": ["bark", "bellow", "call", "caw", "chirp", "croak", "cry", "honey", "lyre", "mew", "purr", "rally", "roar", "shout", "song", "starling", "tongue", "whisper", "yowl"],
-    "MEDIATOR": ["ant" "bee", "ear", "echo", "eye", "heart", "herd", "honey", "hornet", "joy", "lyre", "mend", "mew", "mimic", "parrot", "purr", "sight", "soul", "starling", "tongue", "watcher", "wolf"],
+    "MEDIATOR": ["ant", "bee", "ear", "echo", "eye", "heart", "herd", "honey", "hornet", "joy", "lyre", "mend", "mew", "mimic", "parrot", "purr", "sight", "soul", "starling", "tongue", "watcher", "wolf"],
     "CLEVER": ["crow", "fox", "jay", "owl", "raven", "rook", "tongue", "trick", "wit"],
     "INSIGHTFUL": ["crow", "ear", "eye", "owl", "raven", "rook", "sight"],
     "STAR": ["beam", "bright", "day", "faith", "flight", "gaze", "glimmer", "glow", "hope", "light", "moon", "path", "ray", "rise", "shimmer", "shine", "spirit", "sun", "wisp"],
