@@ -237,7 +237,11 @@
         "accessory",
         "ceremony",
         "transition",
-        "mediator"
+        "mediator",
+        "quest",
+        "cta",
+        "travel",
+        "conclusion"
       ],
       "title": "EventSubtype",
       "type": "string"
