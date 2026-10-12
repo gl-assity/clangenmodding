@@ -1,7 +1,7 @@
 {
     "death": ["murder", "old_age", "mass_death", "war"],
     "injury": ["war"],
-    "misc": ["murder_reveal", "hidden_murder_reveal", "accessory", "ceremony", "war", "transition", "failed_murder", "quest"]
-    "new_cat": ["war"]
+    "misc": ["murder_reveal", "hidden_murder_reveal", "accessory", "ceremony", "war", "transition", "failed_murder", "quest"],
+    "new_cat": ["war"],
     "quest": ["cta", "travel", "conclusion"]
 }
