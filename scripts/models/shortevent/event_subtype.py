@@ -15,3 +15,7 @@ class EventSubtype(Enum):
     ceremony = "ceremony"
     transition = "transition"
     mediator = "mediator"
+    quest = "quest"
+    cta = "cta"
+    travel = "travel"
+    conclusion = "conclusion"
