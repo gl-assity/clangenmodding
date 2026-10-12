@@ -1,0 +1,47 @@
+[
+{
+        "event_id": "gen_quest_questbasic",
+        "location": ["any"],
+        "season": ["any"],
+        "sub_type": [
+            "cta"
+        ],
+        "frequency": 4,
+        "event_text": "m_c tells r_c about {PRONOUN/m_c/poss} vision, explaining {PRONOUN/m_c/subject} think {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} supposed to search for... something. r_c prepares herbs for the journey and sends m_c off with a message. r_c sensed clair_list.",
+        "m_c": {},
+        "r_c": {
+            "status": ["medicine cat", "medicine cat apprentice"],
+            "skill": ["CLAIRVOYANT,1"]
+        },
+        "future_event": [
+            {
+         "event_type": "quest",
+  	 "pool": {
+         "sub_type": ["travel"],
+         "event_id": ["gen_quest_travel"],
+         "excluded_event_id": []
+            },
+         "moon_delay": [2,2],
+         "involved_cats": {
+         "m_c": "m_c",
+         "r_c": {}
+        }
+}
+]
+    },
+{
+        "event_id": "gen_quest_travel",
+        "location": ["any"],
+        "season": ["any"],
+        "sub_type": [
+            "travel"
+        ],
+        "frequency": 4,
+        "event_text": "m_c's paws ache from a moon of travel. {PRONOUN/m_c/subject/CAP} takes shelter with n_c:0.",
+        "m_c": {},
+        "r_c": {},
+    "new_cat": [
+        ["meeting", "exists", "loner", "kittypet", "rogue", "former clancat"]
+    ]
+    }
+]
