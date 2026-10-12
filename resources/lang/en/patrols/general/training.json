@@ -5629,7 +5629,7 @@
                 1
             ]
         },
-        "chance_of_success": 100,
+        "chance_of_success": 70,
         "patrol_art": "cat_sprites/gen_vision_Wr",
         "intro_strings": [
             "As {PRONOUN/p_l/subject} {VERB/p_l/head/heads} out to work on {PRONOUN/p_l/poss} skills, p_l thinks about the dream {PRONOUN/p_l/subject} had last night... Was it sent by StarClan?"
