@@ -708,8 +708,9 @@ dev_tools = false
   medcat_base_capacity = 10
 
 [clan_creation]
+  # We're picky up in here default inf rolls
   # Set this to -1 for it to be infinite
-  rerolls = 3
+  rerolls = -1
 
   # other clans will start with a random relation between the two numbers
   starting_clan_relation = [8, 12]
