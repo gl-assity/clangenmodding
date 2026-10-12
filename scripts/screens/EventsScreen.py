@@ -61,6 +61,7 @@ class EventsScreen(Screens):
     health_events = ""
     other_clans_events = ""
     misc_events = ""
+    quest_events = ""
     display_events = []
     tabs = [
         "all events",
@@ -70,6 +71,7 @@ class EventsScreen(Screens):
         "health",
         "other clans",
         "miscellaneous",
+        "questing"
     ]
 
     def __init__(self, name):
@@ -261,6 +263,8 @@ class EventsScreen(Screens):
             self.display_events = self.other_clans_events
         elif display_type == "miscellaneous":
             self.display_events = self.misc_events
+        elif display_type == "questing":
+            self.display_events = self.quest_events
 
         self.alert[display_type].hide()
 
@@ -724,6 +728,7 @@ class EventsScreen(Screens):
             x for x in game.cur_events_list if "other_clans" in x.types
         ]
         self.misc_events = [x for x in game.cur_events_list if "misc" in x.types]
+        self.quest_events = [x for x in game.cur_events_list if "quest" in x.types]
 
     def update_events_display(self, is_page_update=False):
         """
@@ -987,6 +992,11 @@ class EventsScreen(Screens):
             self.alert["miscellaneous"].show()
         else:
             self.alert["miscellaneous"].hide()
+            
+        if self.quest_events:
+            self.alert["questing"].show()
+        else:
+            self.alert["questing"].hide()
 
         # resets the alerts' x position to make sure they don't shift places over multiple moons.
         for item in self.alert.values():
