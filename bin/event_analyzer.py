@@ -199,7 +199,9 @@ type_subtype = {
         "accessory",
         "ceremony",
         "romance",
+        "quest",
     ],
+    "quest": ["cta", "travel", "conclusion"],
 }
 
 
