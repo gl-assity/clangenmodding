@@ -5644,7 +5644,25 @@
                 "strings": [
                     "It definitely distracts {PRONOUN/p_l/object} from {PRONOUN/p_l/poss} training, but p_l uses the time by {PRONOUN/p_l/self} to put {PRONOUN/p_l/poss} thoughts in order. It was a sign from {PRONOUN/p_l/poss} ancestors. Now {PRONOUN/p_l/subject} {VERB/p_l/need/needs} to figure out what to do next."
                 ],
-                "exp_gained": 20
+                "exp_gained": 20,
+                "future_event": [
+            {
+                "event_type": "quest",
+  	        "pool": {
+                "sub_type": ["cta"],
+                "event_id": ["gen_quest_questbasic"],
+                "excluded_event_id": []
+            },
+                "moon_delay": [1,1],
+                "involved_cats": {
+                "m_c": "p_l",
+                "r_c": {
+            "status": ["medicine cat", "medicine cat apprentice"],
+            "skill": ["CLAIRVOYANT,1"]
+        }
+        }
+}
+]
             },
             {
                 "frequency": 1,
@@ -5652,7 +5670,25 @@
                 "strings": [
                     "Repetitive training brings p_l to an almost meditative state. Not only {VERB/p_l/are/is} {PRONOUN/p_l/subject} fairly confident of {PRONOUN/p_l/poss} next steps having been given this vision, but {PRONOUN/p_l/subject} also {VERB/p_l/take/takes} the opportunity to improve on a skill {PRONOUN/p_l/subject} {VERB/p_l/think/thinks} {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} weak at."
                 ],
-                "exp_gained": 20
+                "exp_gained": 20,
+                "future_event": [
+            {
+                "event_type": "quest",
+  	        "pool": {
+                "sub_type": ["cta"],
+                "event_id": ["gen_quest_questbasic"],
+                "excluded_event_id": []
+            },
+                "moon_delay": [1,1],
+                "involved_cats": {
+                "m_c": "p_l",
+                "r_c": {
+            "status": ["medicine cat", "medicine cat apprentice"],
+            "skill": ["CLAIRVOYANT,1"]
+        }
+        }
+}
+]
             },
             {
                 "frequency": 4,
@@ -5669,7 +5705,25 @@
                         }
                     }
                 },
-                "exp_gained": 30
+                "exp_gained": 30,
+                "future_event": [
+            {
+                "event_type": "quest",
+  	        "pool": {
+                "sub_type": ["cta"],
+                "event_id": ["gen_quest_questbasic"],
+                "excluded_event_id": []
+            },
+                "moon_delay": [1,1],
+                "involved_cats": {
+                "m_c": "p_l",
+                "r_c": {
+            "status": ["medicine cat", "medicine cat apprentice"],
+            "skill": ["CLAIRVOYANT,1"]
+        }
+        }
+}
+]
             }
         ],
         "fail_outcomes": [
