@@ -19,7 +19,7 @@ from scripts.events_module.parameter_dicts import (
 )
 
 root_dir = "../resources/lang/en/events"
-folders = ["death", "injury", "misc", "new_cat"]
+folders = ["death", "injury", "misc", "new_cat", "quest"]
 file_set = set()
 
 
