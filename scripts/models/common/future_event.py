@@ -20,6 +20,7 @@ class EventType(Enum):
     injury = "injury"
     new_cat = "new_cat"
     misc = "misc"
+    quest = "quest"
 
 
 class FutureEventPool(BaseModel):
