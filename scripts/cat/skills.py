@@ -340,7 +340,7 @@ class CatSkills:
             new_skill.primary = Skill.get_random_skill(
                 points=0, interest_only=True, rng=rng
             )
-            elif rank == CatRank.KITTEN or age == CatAge.KITTEN:
+        elif rank == CatRank.KITTEN or age == CatAge.KITTEN:
             new_skill.primary = Skill.get_random_skill(
                 point_tier=0, interest_only=True, rng=rng
             )
