@@ -34,6 +34,13 @@ misc_plains = []
 misc_wetlands = []
 misc_desert = []
 
+quest_beach = []
+quest_forest = []
+quest_general = []
+quest_mountainous = []
+quest_plains = []
+quest_wetlands = []
+quest_desert = []
 
 def reformat(path):
     if "Copy" not in path:
